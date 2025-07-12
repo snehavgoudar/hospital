@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HealthyLife Hospital</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="hos.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+   <marquee>HealthyLife Hospital</marquee>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#doctors">Doctors</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="hero">
+  <div class="container">
+    <h1 style="font-style: italic; color: black;">Welcome to HealthyLife Hospital</h1>
+    <p class="lead">Your health is our priority. We provide quality and affordable healthcare services.</p>
+  </div>
+</section>
+<section id="services" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://www.dignityhealth.org/content/dam/dignity-health/central-ca/images/misc/Emergency-Care.jpg" class="card-img-top" alt="Emergency">
+          <div class="card-body">
+            <h5 class="card-title">Emergency Care</h5>
+            <p class="card-text">24/7 emergency services with professional doctors and staff.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://2.bp.blogspot.com/-SopNkgPVOsM/XBuduZU0ntI/AAAAAAAAGUU/zIQ7RNP3boQt5FCiIB4TzBfFxPjLEcjBQCLcBGAs/w640-h544/diagnostic+tests.jpg" class="card-img-top" alt="Diagnostics">
+          <div class="card-body">
+            <h5 class="card-title">Diagnostics</h5>
+            <p class="card-text">Modern lab facilities and accurate diagnostic services.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://i.pinimg.com/originals/bd/4e/c7/bd4ec7d3e70257653cb069fc46a8a616.jpg" class="card-img-top" alt="Pharmacy">
+          <div class="card-body">
+            <h5 class="card-title">Pharmacy</h5>
+            <p class="card-text">In-house pharmacy with all essential medicines and healthcare products.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="doctors" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Doctors</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card text-center shadow">
+          <img src="https://th.bing.com/th/id/OIP.9GajxM9ZR5gojzVgVTbQrgHaKT?rs=1&pid=ImgDetMain&cb=idpwebpc2g" class="card-img-top rounded-circle mx-auto mt-3" style="width:180px;">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Smith</h5>
+            <p class="card-text">Cardiologist with 10+ years of experience.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center shadow">
+          <img src="https://www.motherhoodindia.com/wp-content/uploads/2022/08/Dr.-Maya-Bohra-scaled.jpg" class="card-img-top rounded-circle mx-auto mt-3" style="width:180px;">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Maya</h5>
+            <p class="card-text">Pediatrician known for child-friendly care.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center shadow">
+          <img src="https://i.pinimg.com/736x/f7/15/e3/f715e38d68c21c1129eb0074b4a8d493.jpg" class="card-img-top rounded-circle mx-auto mt-3" style="width:180px;">
+          <div class="card-body">
+            <h5 class="card-title">Dr. John</h5>
+            <p class="card-text">General Physician with 15 years of service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Patient Registration Section -->
+<section id="register" class="py-5" style="background: linear-gradient(to right, #ffcccb, #62c4f2);">
+  <div class="container">
+    <h2 class="text-center mb-4">Patient Registration Form</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label class="form-label">Full Name</label>
+        <input type="text" class="form-control" placeholder="Enter full name" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Age</label>
+        <input type="number" class="form-control" placeholder="Enter age" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Gender</label>
+        <select class="form-select" required>
+          <option selected disabled>Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" placeholder="Enter phone number" required>
+      </div>
+      <div class="col-12">
+        <label class="form-label">Email Address</label>
+        <input type="email" class="form-control" placeholder="Enter email" required>
+      </div>
+      <div class="col-12">
+        <label class="form-label">Address</label>
+        <textarea class="form-control" rows="2" placeholder="Enter address" required></textarea>
+      </div>
+      <div class="col-12">
+        <label class="form-label">Symptoms</label>
+        <textarea class="form-control" rows="3" placeholder="Describe symptoms" required></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-success px-5">Submit</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 HealthyLife Hospital. All rights reserved.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
